@@ -1,10 +1,10 @@
-import "package:Crypto/features/auth/presentation/widgets/pincode.dart";
 import "package:Crypto/features/core/error/error_screen.dart";
 import 'package:flutter/material.dart';
+import "package:go_router/go_router.dart";
 
-import "../../../../config/theme/app_colors.dart";
-import "../../../../config/theme/app_text_styles.dart";
-import "../../../../config/theme/app_strings.dart"; // Импортируем словарь
+import "../../../config/theme/app_colors.dart";
+import "../../../config/theme/app_text_styles.dart";
+import "../../../config/theme/app_strings.dart"; // Импортируем словарь
 
 class Auth extends StatelessWidget {
   const Auth({super.key});
@@ -30,9 +30,7 @@ class Auth extends StatelessWidget {
               
               ElevatedButton(
                 onPressed: () {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(builder: (context) => const PinCodeScreen()),
-                  );
+context.go('/pin');
                 },
                 style: ElevatedButton.styleFrom(
                   backgroundColor: AppColors.primary,

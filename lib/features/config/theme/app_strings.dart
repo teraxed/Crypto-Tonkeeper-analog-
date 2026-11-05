@@ -82,4 +82,11 @@ abstract class AppStrings {
   static const String settingsSeed = 'Секретная фраза';
   static const String settingsPin = 'Сменить ПИН-код';
   static const String soon = 'Скоро';
+  
+    static const String homeBalanceValue = '0.00';
+  static const String homeCurrency = 'TON';
+  static const String homeNoHistory = 'Пока нет операций';
+  static const String homeYieldTitle = 'Доходность';
+  static const String homeYieldError = 'Не удалось загрузить данные';
+  static const String homeRetry = 'Повторить';
 }

@@ -1,6 +1,6 @@
 import 'package:go_router/go_router.dart';
 import 'package:Crypto/features/core/error/error_screen.dart';
-import 'package:Crypto/features/auth/presentation/pages/splash/splash_screen.dart';
+import 'package:Crypto/features/auth/presentation/pages/splash_screen.dart';
 import 'package:Crypto/features/auth/presentation/widgets/generator.dart';
 import 'package:Crypto/features/auth/presentation/widgets/pincode.dart';
 import 'package:Crypto/features/auth/presentation/pages/wallet_customization_screen.dart';
